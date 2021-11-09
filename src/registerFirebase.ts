@@ -3,14 +3,14 @@ import {getAnalytics} from "firebase/analytics";
 import {getAuth} from "firebase/auth";
 
 const app = initializeApp({
-    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-    databaseURL: process.env.REACT_APP_FIREBASE_DATABASE_URL,
-    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-    // messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-    appId: process.env.REACT_APP_FIREBASE_APP_ID,
-    measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID,
+    apiKey: "AIzaSyDakoEkIuvRvXNldOSpI6hb-J1FvWR4LNs",
+    authDomain: "chat-533d9.firebaseapp.com",
+    databaseURL: "https://chat-533d9-default-rtdb.firebaseio.com",
+    projectId: "chat-533d9",
+    storageBucket: "chat-533d9.appspot.com",
+    messagingSenderId: "179278512418",
+    appId: "1:179278512418:web:49c64dcbaf7e11f98fa57b",
+    measurementId: "G-6GKCRHGK9T"
 });
 
 export const analytics = getAnalytics(app);

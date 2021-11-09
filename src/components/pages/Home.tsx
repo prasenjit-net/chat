@@ -1,9 +1,8 @@
 import React from 'react';
+import {Paper} from "@mui/material";
 
 export const Home = () => {
     return (
-        <h1>
-            Hello World!
-        </h1>
+        <Paper elevation={0}/>
     );
 };
