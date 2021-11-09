@@ -8,7 +8,7 @@ import {AuthenticationProvider} from "./components/layout/AuthenticationProvider
 function App() {
     return (
         <AuthenticationProvider>
-            <Container maxWidth="xl">
+            <Container maxWidth="xl" style={{flexDirection: "column", height: "100vh", display: "flex"}}>
                 <Router>
                     <TitleBar/>
                     <Routes>
