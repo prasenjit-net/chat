@@ -6,7 +6,7 @@ import {useAuthentication} from "./AuthenticationProvider";
 export const TitleBar = () => {
     const {user, signIn, signOut} = useAuthentication();
     return (
-        <AppBar position="static">
+        <AppBar position="static" style={{marginBottom: "0.3rem"}}>
             <Toolbar>
                 <IconButton
                     size="large"
